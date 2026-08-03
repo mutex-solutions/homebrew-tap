@@ -7,28 +7,28 @@
 class Clavis < Formula
   desc "Claude Code provider manager — one binary, many backends"
   homepage "https://github.com/dinhlongviolin1/clavis"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dinhlongviolin1/clavis/releases/download/v0.2.1/clavis_darwin_arm64.tar.gz"
-      sha256 "9969899be683210f751bb9f9e61fe1ec66f5bb253a3192760aac8aa735fb9bac"
+      url "https://github.com/dinhlongviolin1/clavis/releases/download/v0.2.2/clavis_darwin_arm64.tar.gz"
+      sha256 "8bb2616d3785fa98d876d472f280d44b6eb81ac9e444e7a580298f9e901b9db5"
     end
     on_intel do
-      url "https://github.com/dinhlongviolin1/clavis/releases/download/v0.2.1/clavis_darwin_amd64.tar.gz"
-      sha256 "7acd672e5e3a518b04fc9e52fd203cfa2512c29dd27b3ddccb6dd700a8f661fe"
+      url "https://github.com/dinhlongviolin1/clavis/releases/download/v0.2.2/clavis_darwin_amd64.tar.gz"
+      sha256 "cfa63d68a93ebbf99569641d3d802096d947759102905a2b826345935f42fcab"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dinhlongviolin1/clavis/releases/download/v0.2.1/clavis_linux_arm64.tar.gz"
-      sha256 "80c02f4eb229102ea7c72251924d5e4f55dd021ad28fca702ed609337a8a9d19"
+      url "https://github.com/dinhlongviolin1/clavis/releases/download/v0.2.2/clavis_linux_arm64.tar.gz"
+      sha256 "22de5b44e537d81af66560e10e0eca5ece71b97df70e36959d1bbba1a84dd87b"
     end
     on_intel do
-      url "https://github.com/dinhlongviolin1/clavis/releases/download/v0.2.1/clavis_linux_amd64.tar.gz"
-      sha256 "1d1bac4b423238e9eb619067662836d30ea3d531d781a91b05d3090d280bd041"
+      url "https://github.com/dinhlongviolin1/clavis/releases/download/v0.2.2/clavis_linux_amd64.tar.gz"
+      sha256 "ea33f5c3aa3bfc1e2c97c747d4566bc56760e97a35b1be6684ab754886cfa624"
     end
   end
 
