@@ -7,28 +7,28 @@
 class Clavis < Formula
   desc "Claude Code provider manager: one binary, many backends"
   homepage "https://github.com/mutex-solutions/clavis"
-  version "0.6.0"
+  version "0.6.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/mutex-solutions/clavis/releases/download/v0.6.0/clavis_darwin_arm64.tar.gz"
-      sha256 "ce76bbe0f66ca1257088918f03e3f50ee93712eed4c6c9be328f1592a4db1e51"
+      url "https://github.com/mutex-solutions/clavis/releases/download/v0.6.1/clavis_darwin_arm64.tar.gz"
+      sha256 "0b56964fc5b2e0acdc175a310de6812c1af5066259601010322e0023957e7c07"
     end
     on_intel do
-      url "https://github.com/mutex-solutions/clavis/releases/download/v0.6.0/clavis_darwin_amd64.tar.gz"
-      sha256 "0d7ddd2e0377a59c8d81e4f6f8f2bdb3a64a3826d877185dcfbe87c1aa0f1068"
+      url "https://github.com/mutex-solutions/clavis/releases/download/v0.6.1/clavis_darwin_amd64.tar.gz"
+      sha256 "55d7d04a38195b96a00c5524f8dfc841a31448e47769ecd664d78022ae572794"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mutex-solutions/clavis/releases/download/v0.6.0/clavis_linux_arm64.tar.gz"
-      sha256 "10b0e6293f1bda46578f6ae9014586df6949cb2710a5b13f1c831f258da27a96"
+      url "https://github.com/mutex-solutions/clavis/releases/download/v0.6.1/clavis_linux_arm64.tar.gz"
+      sha256 "b57436b6555c1e7d0e01bbac3138171f3e578d85fde1066ff0cdc73d3b54f0b3"
     end
     on_intel do
-      url "https://github.com/mutex-solutions/clavis/releases/download/v0.6.0/clavis_linux_amd64.tar.gz"
-      sha256 "f42bfca046245d6204ed7d914169a884e6c0eccbe10e912169db5431ecff608a"
+      url "https://github.com/mutex-solutions/clavis/releases/download/v0.6.1/clavis_linux_amd64.tar.gz"
+      sha256 "7f4430795df3aff2dbb9bf50700c94915bdb8151753e757f3d5ee1bc009bcf8f"
     end
   end
 
