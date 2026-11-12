@@ -7,28 +7,28 @@
 class Cadenza < Formula
   desc "Let coding agents show their work and ask you questions"
   homepage "https://github.com/mutex-solutions/cadenza"
-  version "0.1.4"
+  version "0.1.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/mutex-solutions/cadenza/releases/download/v0.1.4/cadenza_darwin_arm64.tar.gz"
-      sha256 "74b6064d5d9ebb7c7435abec2da0c2a3607ee66033c6899087fd9685d9c49b93"
+      url "https://github.com/mutex-solutions/cadenza/releases/download/v0.1.5/cadenza_darwin_arm64.tar.gz"
+      sha256 "cc3bac3e12ec69d617b12e1ff0bc447e98ba9a45ba1955e6ed22407f8626e7aa"
     end
     on_intel do
-      url "https://github.com/mutex-solutions/cadenza/releases/download/v0.1.4/cadenza_darwin_amd64.tar.gz"
-      sha256 "70db40eb1dc9363f8c3532ed8074dd871f59d529cf6cc635c2c59d7a00a5d434"
+      url "https://github.com/mutex-solutions/cadenza/releases/download/v0.1.5/cadenza_darwin_amd64.tar.gz"
+      sha256 "1df00ea094f58e5afa91de7f69d34749ae6126a214d9b787e9124a5ab8f8a832"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mutex-solutions/cadenza/releases/download/v0.1.4/cadenza_linux_arm64.tar.gz"
-      sha256 "38d84dc98d6a8623f18c2b1563cd2afc03c5dd1c6f7634480b09cf6bb1a33839"
+      url "https://github.com/mutex-solutions/cadenza/releases/download/v0.1.5/cadenza_linux_arm64.tar.gz"
+      sha256 "94df035307ff43fcf0cdda9ab247fa9168df61fb93cec165bbbfd79c459108ab"
     end
     on_intel do
-      url "https://github.com/mutex-solutions/cadenza/releases/download/v0.1.4/cadenza_linux_amd64.tar.gz"
-      sha256 "b23d6e8a8b7760108fb20175ebe8606afd45e05519161a5030c741e76d8ce25e"
+      url "https://github.com/mutex-solutions/cadenza/releases/download/v0.1.5/cadenza_linux_amd64.tar.gz"
+      sha256 "ea117cd673a6cef0663074fb4464f8ea08e8c51731d5a20243be1da3407227e9"
     end
   end
 
