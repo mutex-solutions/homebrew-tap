@@ -7,28 +7,28 @@
 class Arco < Formula
   desc "Stateless MCP hub for your herdr fleet"
   homepage "https://github.com/mutex-solutions/arco"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/mutex-solutions/arco/releases/download/v0.1.1/arco_darwin_arm64.tar.gz"
-      sha256 "69da4751b54af86ce5ab264dd068ba7206773fc0f9b1a7091ee3f88683e6ac4d"
+      url "https://github.com/mutex-solutions/arco/releases/download/v0.1.2/arco_darwin_arm64.tar.gz"
+      sha256 "dd3068656bb6b1b35528250d34f2f766edc6a6e011086c91fba93d2961a7f84b"
     end
     on_intel do
-      url "https://github.com/mutex-solutions/arco/releases/download/v0.1.1/arco_darwin_amd64.tar.gz"
-      sha256 "d1f1bd58c5b8ec70c03c1595ca0f0f9c22e7a807d10a102e9a9c4a30d556d75b"
+      url "https://github.com/mutex-solutions/arco/releases/download/v0.1.2/arco_darwin_amd64.tar.gz"
+      sha256 "0dca9e2f87ed224080bd63ddd4f7d66f268686a10529a697f8336c0925912cec"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mutex-solutions/arco/releases/download/v0.1.1/arco_linux_arm64.tar.gz"
-      sha256 "8dca025570e3ee11fdd726699ab0f7798a077d44d8cf778e74a4f6281ea8a9c4"
+      url "https://github.com/mutex-solutions/arco/releases/download/v0.1.2/arco_linux_arm64.tar.gz"
+      sha256 "f1df43872c6ed7a9120b25bc1d45c7b6337501523fe426f9eb0a05d1a933f6aa"
     end
     on_intel do
-      url "https://github.com/mutex-solutions/arco/releases/download/v0.1.1/arco_linux_amd64.tar.gz"
-      sha256 "337ccc69ad391fb6bc241b32466a6821f82bd2cb3209cbd3fbc7dd1417e3f56d"
+      url "https://github.com/mutex-solutions/arco/releases/download/v0.1.2/arco_linux_amd64.tar.gz"
+      sha256 "af0ff2df6a6a2f70fea923e790221d3296984c44682f078990e4ff1683a72c8c"
     end
   end
 
